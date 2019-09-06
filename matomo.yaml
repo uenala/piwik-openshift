@@ -15,7 +15,7 @@ parameters:
   required: true
 - name: MATOMO_IMAGE_SOURCE
   description: Source of the Matomo Docker Image to deploy
-  value: docker.io/piwik
+  value: docker.io/matomo
 - name: MATOMO_IMAGE_TAG
   description: Tag of the Matomo Docker Image to deploy
   value: 3-fpm
