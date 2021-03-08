@@ -15,10 +15,10 @@ parameters:
   required: true
 - name: MATOMO_IMAGE_SOURCE
   description: Source of the Matomo Docker Image to deploy
-  value: docker.io/matomo
+  value: hub.docker.com/_/matomo
 - name: MATOMO_IMAGE_TAG
   description: Tag of the Matomo Docker Image to deploy
-  value: 3.11-fpm
+  value: matomo:3.14.1-fpm
 - name: NGINX_DOCKERFILE_REPO
   description: Nginx Dockerfile source repository
   value: https://github.com/tobru/piwik-openshift.git
